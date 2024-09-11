@@ -4,6 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/aerospace-teaching
 venue: "University of Cambridge, Summer School"
+date: 2024-03-01
 location: "Cambridge, United Kingdom"
 ---
 

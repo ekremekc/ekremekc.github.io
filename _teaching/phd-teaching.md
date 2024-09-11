@@ -4,6 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/python-teaching
 venue: "University of Cambridge"
+date: 2022-01-01
 location: "Cambridge, United Kingdom"
 ---
 
