@@ -4,11 +4,10 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/aerospace-teaching
 venue: "University of Cambridge, Summer School"
-date: 2023-2024
 location: "Cambridge, United Kingdom"
 ---
 
-60 hours of teaching for Aerospace Engineering module.
+60 hours of teaching for Aerospace Engineering module in 2024.
 
 Aerospace Engineering
 ======

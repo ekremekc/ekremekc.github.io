@@ -4,11 +4,10 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/python-teaching
 venue: "University of Cambridge, Summer School"
-date: 2023-2024
 location: "Cambridge, United Kingdom"
 ---
 
-160 hours of teaching for Computer Science module.
+160 hours of teaching for Computer Science module on 2023 and 2024 summers.
 
 Computer Science
 ======
