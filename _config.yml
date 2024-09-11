@@ -21,7 +21,7 @@ repository               : "ekremekc/ekremekc.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Ekrem Ekici"
   pronouns         : # example: "she/her"  
   bio              : "Researcher"
@@ -41,7 +41,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/ekremekc"
+  github           : "ekremekc"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -55,7 +55,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/ekremekc/"
+  linkedin         : "ekremekc"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

@@ -17,29 +17,26 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jan 2021 - Jun 2024: **PhD Student**
+  * University of Cambridge
+  * Thesis title: Shape Optimization of Annular Combustors with an Open Source Parallelized Thermoacoustic Helmholtz Solver
+  * Supervisor: [Matthew Juniper](https://mpj1001.user.srcf.net/MJ_biography.html)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Aug 2019 - Nov 2020: **MSc Student**
+  * University of Birmingham
+  * Thesis title: Design and Simulation of Converging Diverging Supersonic Nozzle
+  * Supervisor: [Jason Stafford](https://www.birmingham.ac.uk/staff/profiles/mechanical/stafford-jason)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Apr 2018 - Aug 2019 : **Research Assistant**
+  * Gebze Technical University
+  * Assisted Modules: Thermodynamics I & II
   
-Skills
+Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python Programming, Bash, Ubuntu/Linux, $\LaTeX$
+* Optimization
+  * Metaheuristic (Genetic, Ant Colony, Bees Algorithm)
+  * Gradient Based (Adjoints)
 
 Selected Publications
 ======
