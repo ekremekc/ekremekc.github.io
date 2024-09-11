@@ -7,6 +7,54 @@ redirect_from:
   - /markdown.html
 ---
 
+vncserver commands
+======
+To specify the port of vncserver:
+```
+vncserver :2 
+```
+To kill the process of vncserver:
+```
+vncserver -kill :2
+```
+If port is in use;
+```
+lsof -ti:5902 | xargs kill -9
+```
+Reference link is [here](http://www.chiark.greenend.org.uk/~peterb/remoteaccess/connect-to-linux.html).
+
+
+SSH tunneling
+======
+First do;
+```
+ssh-keygen
+```
+Then, modify config file in .ssh folder using [this](http://www.chiark.greenend.org.uk/~peterb/remoteaccess/config.html) link.
+
+After them you should be able to login just by `ssh computer_name`.
+
+## File Transfer
+
+From remote to local;
+```
+scp -r destrier:/home/ee331/folder   /home/ekrem/folder
+```
+From local to remote;
+```
+ scp -r folder destrier:/home/ee331/
+```
+
+## Ubuntu terminal commands;
+[Saving the terminal output to a file.](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
+
+About PhD - Advices;
+======
+Jack Baker's Advices are [here](https://www.jackwbaker.com/advice.html).
+
+Markdown Cheatsheet
+======
+
 ## Locations of key files/directories
 
 * Basic config options: _config.yml

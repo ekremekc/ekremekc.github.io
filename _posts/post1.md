@@ -1,7 +1,71 @@
 ---
-title: 'There is no blog posts yet.'
-date: 2024-09-11
+title: 'Yazılım Dünyası ve Makine Mühendisliği'
+date: 2022-05-07
 permalink: /posts/post1
 ---
 
-There is no blog posts yet..
+## Giriş
+Günümüz dünyasında yazılımın önemi herkes tarafından bilinmekte. Sadece bilgisayar ve elektronik mühendislerinin değil aynı zamanda diğer mühendislik branşları için de ( makine mühendisliği, endüstri mühendisliği) uygulama alanı oluşmuş durumda olan bilgisayar bilimleri , katma değeri yüksek işler yapabilmek için vazgeçilmez bir araç haline geldi. Öğrenilmesi durumunda, örneğin mühendislik branşlarında, mevcut deneysel çalışmaları bilgisayar ortamında doğrulayıp üzerine deney yapmaksızın, hangi deneysel parametrelerin çıktıya nasıl etki ettiği belirlenebiliyor.
+
+İlk yazım olan bu yazımda yazılım dünyasına makine mühendisi bakış açısı ile yaklaşmaya çalışacağım. Ayrıca bu uzun yolda ihtiyacımıza göre hangi yazılım dillerini öğrenmemizin uygun olacağını, aylardır yaptığım araştırmaların neticesi olarak sizlere aktarmaya çalışacağım.
+
+## Motivasyon
+Yıllardır devam eden teknolojik gelişmeleri elimden geldiğince takip eden birisiyim. Yazılımın bu teknolojilerin hepsinin ortak paydasında olduğunu farkettiğim zamandan beri bu bilime ilgim sürekli olarak artmıştı. Gerek arayüz tasarımı ve nümerik yöntemler ile mühendislik problemlerine (bizim branşımızda ısı transferi, akışkanlar nekaniği, aerodinamik problemleri) yaklaşımdaki etkinliği gerekse endüstride duyulan ihtiyaç beni bu alanı araştırmaya ve öğrenmeye heveslendirdi.
+
+Biz lisans egitiminin ilk döneminde MATLAB programlama dilinin eğitimini almıştık. MATLAB, kolay syntax'ı ve çok da yavaş olmamasıyla ilk adım olarak öğrenilmesi bir tık kolay bir dildir. Özellikle içerdiği özel toolboxlar (Simulink, AI toolboxları) bakımından rakipsiz olabilir. Fakat sonradan MATLAB hem programlamaya hakimiyet konusunda hem de lisans problemlerinden ötürü bana çok cezbedici gelmemeye başladı.
+
+Bu yüzden ben de Python, Java, C++ ve son olarak ısı-akış dünyasının vazgeçilmez platformlarından biri olan OpenFoam gibi açık kaynaklı yazılımlara yöneldim. Bu bahsettiğim yazılım dillerinin hangisinin ne işe yaradığını kendi tecrübelerimden aktarabildiğim kadarıyla size sırasıyla anlatacağım; 
+
+## Python Programlama Dili
+
+Grafik 1’de görüldüğü üzere şu anda bilişim dünyasında kullanımı her gün hızla artmakta olan yazılım dilidir. Veri bilimleri (data science) ve makine öğrenmesi (machine learning) konularında çok fazla halihazırda kütüphanesi olduğu için oldukça fazla talep görmektedir. Ayrıca özellikle dikkat çekmek istediğim bir nokta olarak, internette en fazla problem-çözüm ikilisine sahip yazılım dillerinden biridir. Yapmak istediğiniz herhangi birşeyi çok yüksek ihtimalle daha önce birisi denemiştir ve stackoverflow.com adlı internet sitesinde problemine yardım istemiştir. Bu yüzden geri-beslemesi çok fazla olan bu dil, benim de en çok ilgimi çeken ve üzerinde uzmanlaşmaya çalıştığım yazılım dili olmuştur.
+![Grafik 1 – Yazılım Dillerinin Kullanımının Yıllara Göre Dağılımı [1]](/images/posts/post1/1.png)
+<center>Grafik 1 – Yazılım Dillerinin Kullanımının Yıllara Göre Dağılımı [1]</center>
+
+Bu programlama dilinin Anaconda adında birçok geliştirme ortamını içinde bulunduran bir platformu vardır. Bu platform içinden MATLAB’e yapı olarak çok benzeyen ve birçok bilimsel fonksiyonları ve mühendislik sabitlerini içeren kütüphaneleri içinde bulunduran Spyder adlı geliştirme ortamı hemen hemen mühendisler için bütün hesaplama taleplerini doğrudan (kütüphane kurmaksızın) karşılamaktadır.
+
+Bu platform açık kaynaklı bir geliştirme ortamıdır ve MIT lisansı altında tamamen ücretsizdir. Oldukça zengin bir grafik çizme kütüphanesi (matplotlib) vardır ve bana göre diğer yazılım dillerindeki grafik paketlerine kıyasla ezici üstünlüğe sahiptir.
+
+Ben genelde derslerimdeki ödevleri ve bilimsel araştırmaları Spyder ile yapıyorum. Grafik 2’de Spyder geliştirme ortamını kullanarak Python programlama dilinden faydalanıp yazdığım bazı programların görsel çıktıları gösterilmiştir.
+
+![Grafik 2.a](/images/posts/post1/2.png)
+<center>(a)</center>
+
+![Grafik 2.b](/images/posts/post1/3.png)
+<center>(b)</center>
+
+
+<center>Grafik 2. Bir plakadaki sıcaklık dağılımının sonlu farklar yöntemi ile (a) zamana bağlı olarak ve (b) sürekli hal durumuna göre çözülmesi</center>
+
+İlk başta MATLAB kullanmış biri olarak sadece numpy ve matplotlib kütüphanelerini yükleyerek Spyder'ı neredeyse MATLAB' e çevirip (toolboxlar hariç tabiki) her işimi gördüğümü söyleyebilirim.
+
+Ayrıca Python'da kod yazan birinin MATLAB'in programlama diline hakim olması da çok zor olmayacaktır. 
+
+## Java Programlama Dili
+
+Arayüz geliştirmek isteyenler için bana göre en iyi yazılım dilidir. Grafik 3’de görüleceği üzere en çok kullanılan programlama dilidir (Mart, 2019). Bu programlama dili, işletim sistemi farketmeksizin (Windows, Linux – Ubuntu, Mac OS) her yerde çalışabilmektedir. Zaten sloganı “Write Once, Run Anywhere” (Bir kere yaz, her yerde çalıştır) şeklindedir. Mikro-işlemcisi biraz güçlü gömülü sistemlerde, makine diline (machine code) çok da yakın olmamasına rağmen şakır şakır çalışmaktadır. NetBeans adında Oracle (şu anda büyük oranda Java’yı geliştiren şirket) tarafından desteklenen çok kullanışlı bir geliştirme ortamı vardır. Ayrıca arayüz (GUI) geliştirmek için JavaFX adlı süper bir kütüphanesi mevcuttur.
+
+Bu yazılım diline hakim olunması durumunda diğer mühendislik branşlarına yönelik ticari yazılımlar üretmek mümkündür. Fakat büyük sistemler için veritabanı (database) kullanabilme ve yönetebilme becerisine sahip olmak gerekir.
+
+![Grafik 3](/images/posts/post1/4.png)
+<center>Grafik 3 - Programlama dillerinin kullanım sıklığı (Mart, 2019) [2]</center>
+
+## C++ ve OpenFoam
+
+Öncelikle C++ ile başlayacak olursak öğrenmesi en zor yazılım dillerinden biridir. Makine diline yakın olduğu için olaya çok daha fazla hakimsinizdir ve diğer yazılım dillerine kıyasla hızlıdır. Fakat syntax’ının ve hata ayıklamanın kolay olmayışından ötürü elektronik ve bilgisayar mühendislikleri haricinde kalan mühendislikler tarafından çok tercih edilmemektedir. CodeBlocks adlı geliştirme ortamı epey popülerdir. C++, genellikle oyun grafiklerinde ve gerçek zamanlı gömülü sistemlerde sıklıkla kullanılmaktadır.
+
+OpenFoam’a gelecek olursak genelde bilimsel araştırmalar için kullanılan, tamamen açık kaynaklı (ücretsiz), C++ dili ile yazılmış bir platformdur. 2 tane versiyonu mevcuttur ve birisi 2004 yılında Imperial College London’daki doktora öğrencilerince geliştirildikten sonra ilk sürüm olarak çıkarılmıştır. Genelde ısı-akış problemleri, aerodinamik ve yanma gibi ileri mühendislik problemlerine sık rastlanılan alanlarda kullanılan ve içinde bulunan çözücüleri (solver) C++ dili ile geliştirilebilen bir programdır. İçerisinde geometri oluşturma (CAD), hücrelere ayırma (meshing) ve çözücü (solver) kütüphaneleri mevcuttur. Simulasyonlar sonrasında üretilen sonuçlar yine açık kaynaklı bir platform olan Paraview ile görsellenebilir (post-processing).
+
+Ubuntu işletim sistemi ile çalışmakta olan bu program, arayüzü olmaması dolayısıyla sürekli terminalden işlem yapmayı gerektirir. Bu da yıllardır Windows kullanan ve programlama altyapısı olmayan kişilerce öğrenilmesini zorlaştırmaktadır. Bu programın rakibi olan ve oldukça pahalı fiyata sahip ANSYS-Fluent programı çok gelişmiş arayüzü ve kolay öğrenilebilme özelliklerinden ötürü endüstride ve akademide çokça tercih edilmektedir.
+
+Kişisel kanaatimce mümkün olduğu kadar açık kaynaklı yazılımları kullanmamız, zor da olsa öğrenmemiz hem yazılım ithalatımızı azaltacak hem de mühendislik problemlerine derinlemesine hakim olmamızı sağlayacaktır. Çünkü insan, en iyi öğreterek öğrenir ve yeni başladığınızda bilgisayara yazılım dili kullanarak (arayüz olmadan) bir mühendislik problemini anlatmak hiç de kolay değildir. Fakat sabırlı olunması ve motive eden bir hedefe yönelik çalışılması durumunda istenilen hakimiyetin elde edilmesi mümkün olacaktır.
+
+Şimdilik bu yazımda 3 programlama dilini genel bir bakışla özetlemeye çalıştım, bir dahaki yazıda bu dillerin nasıl öğrenilebileceği konusunda bilgi vermeye çalışacağım.    
+
+ Herkese çalışmalarında kolaylıklar dilerim..
+
+## Referanslar
+
+[1] https://stackoverflow.blog/2017/09/06/incredible-growth-python/
+
+[2] https://towardsdatascience.com/visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d
