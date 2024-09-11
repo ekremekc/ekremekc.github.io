@@ -2,6 +2,8 @@
 title: 'Yazılım Dünyası ve Makine Mühendisliği'
 date: 2022-05-07
 permalink: /posts/post1
+tags:
+  - turkish
 ---
 
 ## Giriş
