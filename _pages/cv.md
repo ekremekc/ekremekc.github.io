@@ -33,7 +33,7 @@ Work experience
   
 Interests
 ======
-* Python Programming, Bash, Ubuntu/Linux, `$$\LaTeX$$`
+* Python Programming, Bash, Ubuntu/Linux, LaTeX
 * Optimization
   * Metaheuristic (Genetic, Ant Colony, Bees Algorithm)
   * Gradient Based (Adjoints)
