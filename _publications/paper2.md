@@ -1,7 +1,7 @@
 ---
 title: "Shape sensitivity of thermoacoustic oscillations in an annular combustor with a 3D adjoint Helmholtz solver"
 collection: publications
-permalink: /publication/paper2
+permalink: /publications/paper2
 date: 2024-01-05
 venue: 'Computer Methods in Applied Mechanics and Engineering'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0045782523006965'
