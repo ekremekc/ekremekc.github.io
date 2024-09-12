@@ -20,6 +20,8 @@ We use different numerical toolkits to address optimization problem:
 * [SLEPc](https://slepc.upv.es/) -> Solving eigenvalue problems.
 * [FEniCSx](https://github.com/FEniCS) -> Formulation of the weak form and assembling matrices.
 
+See [Bio](https://ekremekc.github.io/cv/) page to find out other softwares we use.
+
 <!-- Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)

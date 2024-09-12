@@ -33,12 +33,29 @@ Work experience
   
 Interests
 ======
-* Python Programming, Bash, Ubuntu/Linux, LaTeX
+* Thermoacoustic Instabilities & Combustion
+* Finite Element Method for Engineering Applications
 * Optimization
   * Metaheuristic (Genetic, Ant Colony, Bees Algorithm)
   * Gradient Based (Adjoints)
 
-Selected Publications
+Software
+======
+* Ubuntu/Linux
+  * Bash
+* FEniCSx
+  * PETSc
+  * SLEPc
+  * OpenMPI
+  * Gmsh
+* Python
+  * Numpy
+  * Matplotlib
+* OpenFOAM
+  * C++
+* ParaView
+
+<!-- Selected Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -54,5 +71,5 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
