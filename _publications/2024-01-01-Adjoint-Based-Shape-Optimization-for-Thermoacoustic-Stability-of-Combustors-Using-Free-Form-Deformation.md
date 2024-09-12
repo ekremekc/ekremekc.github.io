@@ -1,6 +1,7 @@
 ---
 title: "Adjoint Based Shape Optimization for Thermoacoustic Stability of Combustors Using Free Form Deformation"
 collection: publications
+category: conferences
 permalink: /publication/2024-01-01-Adjoint-Based-Shape-Optimization-for-Thermoacoustic-Stability-of-Combustors-Using-Free-Form-Deformation
 date: 2024-01-01
 venue: 'In the proceedings of ASME Turbo Expo, London, UK'

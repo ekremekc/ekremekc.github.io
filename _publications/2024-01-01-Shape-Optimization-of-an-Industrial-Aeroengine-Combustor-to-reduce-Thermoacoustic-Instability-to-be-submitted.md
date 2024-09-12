@@ -1,6 +1,7 @@
 ---
 title: "Shape Optimization of an Industrial Aeroengine Combustor to reduce Thermoacoustic Instability (to be submitted)"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-Shape-Optimization-of-an-Industrial-Aeroengine-Combustor-to-reduce-Thermoacoustic-Instability-to-be-submitted
 date: 2024-01-01
 venue: 'Journal of Engineering for Gas Turbines and Power'

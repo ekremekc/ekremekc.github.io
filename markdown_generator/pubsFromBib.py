@@ -58,6 +58,11 @@ for pubsource in publist:
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
 
+    if pubsource=="journal":
+        category_type = "manuscripts"
+    if pubsource=="proceeding":
+        category_type = "conferences"
+
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
         #reset default date
@@ -117,6 +122,8 @@ for pubsource in publist:
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
+            md += """\ncategory: """ +  category_type
+
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
             note = False
@@ -153,7 +160,7 @@ for pubsource in publist:
 
             with open("../_publications/" + md_filename, 'w', encoding="utf-8") as f:
                 f.write(md)
-            print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
+            print(f'SUCCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")

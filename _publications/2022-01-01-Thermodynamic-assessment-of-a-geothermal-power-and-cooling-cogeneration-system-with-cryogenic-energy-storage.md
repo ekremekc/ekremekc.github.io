@@ -1,6 +1,7 @@
 ---
 title: "Thermodynamic assessment of a geothermal power and cooling cogeneration system with cryogenic energy storage"
 collection: publications
+category: manuscripts
 permalink: /publication/2022-01-01-Thermodynamic-assessment-of-a-geothermal-power-and-cooling-cogeneration-system-with-cryogenic-energy-storage
 date: 2022-01-01
 venue: 'Energy Conversion and Management'
