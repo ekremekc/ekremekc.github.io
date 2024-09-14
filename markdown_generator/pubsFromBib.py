@@ -40,6 +40,13 @@ publist = {
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
+    },
+    "mvproceedings":{
+        "file": "symposiums.bib",
+        "venuekey" : "publisher",
+        "venue-pretext" : "",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
     } 
 }
 
@@ -62,6 +69,8 @@ for pubsource in publist:
         category_type = "manuscripts"
     if pubsource=="proceeding":
         category_type = "conferences"
+    if pubsource=="mvproceedings":
+        category_type = "symposiums"
 
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
@@ -153,6 +162,8 @@ for pubsource in publist:
 
             if url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+            elif pubsource=="mvproceedings":
+                pass
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
