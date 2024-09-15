@@ -27,7 +27,7 @@ import re
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : "proceedings.bib",
+        "file" : "conferences.bib",
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
@@ -47,7 +47,14 @@ publist = {
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
-    } 
+    },
+    "proceedings":{
+        "file": "seminars.bib",
+        "venuekey" : "publisher",
+        "venue-pretext" : "",
+        "collection" : {"name":"talks",
+                        "permalink":"/talks/"}
+    }
 }
 
 html_escape_table = {
@@ -71,6 +78,8 @@ for pubsource in publist:
         category_type = "conferences"
     if pubsource=="mvproceedings":
         category_type = "symposiums"
+    if pubsource=="proceedings":
+        category_type = "Talk"
 
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
@@ -131,7 +140,10 @@ for pubsource in publist:
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
-            md += """\ncategory: """ +  category_type
+            if pubsource=="proceedings":
+                md += """\ntype: """ +  category_type
+            else:
+                md += """\ncategory: """ +  category_type
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
@@ -151,7 +163,10 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
-            md += "\ncitation: '" + html_escape(citation) + "'"
+            if pubsource=="proceedings":
+                pass
+            else:
+                md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
 
@@ -162,15 +177,19 @@ for pubsource in publist:
 
             if url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
-            elif pubsource=="mvproceedings":
+            elif pubsource=="mvproceedings" or pubsource=="proceedings":
                 pass
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
             md_filename = os.path.basename(md_filename)
-
-            with open("../_publications/" + md_filename, 'w', encoding="utf-8") as f:
-                f.write(md)
+            
+            if pubsource=="proceedings":
+                with open("../_talks/" + md_filename, 'w', encoding="utf-8") as f:
+                    f.write(md)
+            else:
+                with open("../_publications/" + md_filename, 'w', encoding="utf-8") as f:
+                    f.write(md)
             print(f'SUCCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
         except KeyError as e:
