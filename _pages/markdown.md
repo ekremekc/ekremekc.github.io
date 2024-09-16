@@ -1,6 +1,6 @@
 ---
 permalink: /markdown/
-title: "Markdown"
+title: "Useful"
 author_profile: true
 redirect_from: 
   - /md/
@@ -14,11 +14,11 @@ To specify the port of vncserver:
 vncserver :2 
 ```
 To kill the process of vncserver:
-```
+```bash
 vncserver -kill :2
 ```
 If port is in use;
-```
+```bash
 lsof -ti:5902 | xargs kill -9
 ```
 Reference link is [here](http://www.chiark.greenend.org.uk/~peterb/remoteaccess/connect-to-linux.html).
@@ -27,7 +27,7 @@ Reference link is [here](http://www.chiark.greenend.org.uk/~peterb/remoteaccess/
 SSH tunneling
 ======
 First do;
-```
+```bash
 ssh-keygen
 ```
 Then, modify config file in .ssh folder using [this](http://www.chiark.greenend.org.uk/~peterb/remoteaccess/config.html) link.
@@ -37,11 +37,11 @@ After them you should be able to login just by `ssh computer_name`.
 ## File Transfer
 
 From remote to local;
-```
+```bash
 scp -r destrier:/home/ee331/folder   /home/ekrem/folder
 ```
 From local to remote;
-```
+```bash
  scp -r folder destrier:/home/ee331/
 ```
 

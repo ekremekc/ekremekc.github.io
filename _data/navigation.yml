@@ -5,7 +5,7 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "News"
+  - title: "Feed"
     url: /year-archive/
 
   - title: "Bio"
@@ -15,7 +15,10 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
+
+  - title: "Interests"
+    url: /portfolio/    
 
   - title: "Teaching"
     url: /teaching/    
