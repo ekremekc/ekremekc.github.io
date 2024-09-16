@@ -7,20 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Our research is centered around the optimization for engineering applications. We aim to use [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) to encourage reproducibility. We aim to apply certain optimization techniques and tools on wide spectrum of engineering problems; such as thermoacoustics, biomedicals, structures and fluids.
+Our research is centered around the optimization for engineering applications. We aim to use [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) to encourage reproducibility. We aim to apply certain optimization techniques and tools on wide spectrum of engineering problems such as:
+* thermoacoustics
+* heat transfer
+* biomedicals
+* structures
+* fluids
 
-Thermoacoustic Instability
-======
-In my PhD, we developed a [3D thermoacoustic Helmholtz solver](https://github.com/ekremekc/helmholtz-x) to obtain thermoacoustic eigenmodes of the industrial combustors. Then we deploy shape optimization through various parametrization techniques; NURBS and Free Form Deformation. We used adjoint methods to accelerate optimization process. We greatly benefitted from finite element method (FEM) to handle complex combustor geometries.
-
-Tools
-======
-We use different numerical toolkits to address optimization problem:
-* [PETSc](https://petsc.org/release/overview/) -> Building sparse matrices and solving linear systems.
-* [SLEPc](https://slepc.upv.es/) -> Solving eigenvalue problems.
-* [FEniCSx](https://github.com/FEniCS) -> Formulation of the weak form and assembling matrices.
-
-See [Bio](https://ekremekc.github.io/cv/) page to find out other softwares we use.
+We use different numerical toolkits to address optimization problems. See [Bio](https://ekremekc.github.io/cv/) page to find out the softwares we use.
 
 <!-- Getting started
 ======

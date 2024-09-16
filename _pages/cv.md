@@ -37,13 +37,13 @@ Interests
   * Metaheuristic (Genetic, Ant Colony, Bees Algorithm)
   * Gradient Based (Adjoints)
 
-Software
+Softwares we use
 ======
 * Ubuntu/Linux
   * Bash
-* FEniCSx
-  * PETSc
-  * SLEPc
+* [FEniCSx](https://github.com/FEniCS) -> Formulation of the weak form and assembling matrices for FEM applications.
+  * [PETSc](https://petsc.org/release/overview/) -> Building sparse matrices and solving linear systems.
+  * [SLEPc](https://slepc.upv.es/) -> Solving eigenvalue problems.
   * OpenMPI
   * Gmsh
 * Python
