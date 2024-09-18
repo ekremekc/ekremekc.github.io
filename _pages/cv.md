@@ -28,30 +28,8 @@ Work experience
 * Apr 2018 - Aug 2019 : **Research Assistant**
   * Gebze Technical University
   * Assisted Modules: Thermodynamics I & II
-  
-Interests
-======
-* Thermoacoustic Instabilities & Combustion
-* Finite Element Method for Engineering Applications
-* Engineering Optimization
-  * Metaheuristic (Genetic, Ant Colony, Bees Algorithm)
-  * Gradient Based (Adjoints)
 
-Softwares we use
-======
-* Ubuntu/Linux
-  * Bash
-* [FEniCSx](https://github.com/FEniCS) -> Formulation of the weak form and assembling matrices for FEM applications.
-  * [PETSc](https://petsc.org/release/overview/) -> Building sparse matrices and solving linear systems.
-  * [SLEPc](https://slepc.upv.es/) -> Solving eigenvalue problems.
-  * OpenMPI
-  * Gmsh
-* Python
-  * Numpy
-  * Matplotlib
-* OpenFOAM
-  * C++
-* ParaView
+
 
 <!-- Selected Publications
 ======

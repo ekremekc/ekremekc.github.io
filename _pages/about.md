@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Our research is centered around the optimization for engineering applications. We aim to use [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) to encourage reproducibility. We aim to apply certain optimization techniques and tools on wide spectrum of engineering problems such as:
-* thermoacoustics
+Our research is centered around the optimization for engineering applications. We aim to use [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) to push the boundaries of the computer. We aim to apply certain optimization techniques and tools on wide spectrum of engineering problems such as:
+* acoustics/thermoacoustics
 * heat transfer
 * biomedicals
 * structures
 * fluids
 
-We use different numerical toolkits to address optimization problems. See [Bio](https://ekremekc.github.io/cv/) page to find out the softwares we use.
+We use different numerical toolkits to address engineering optimization problems. See [Interests](https://ekremekc.github.io/portfolio/) page to find out the softwares we use.
 
 <!-- Getting started
 ======
