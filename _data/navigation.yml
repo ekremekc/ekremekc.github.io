@@ -11,14 +11,14 @@ main:
   - title: "Bio"
     url: /cv/
 
+  - title: "Interests"
+    url: /portfolio/
+
   - title: "Publications"
     url: /publications/
 
   - title: "Talks"
-    url: /talks/
-
-  - title: "Interests"
-    url: /portfolio/    
+    url: /talks/   
 
   - title: "Teaching"
     url: /teaching/    
