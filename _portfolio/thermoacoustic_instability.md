@@ -1,6 +1,6 @@
 ---
 title: "Thermoacoustic Instability"
-excerpt: "TA instabilities are arising in combustors of rocket and gas turbine engines.<br/><img src='/images/projects/thermoacoustics/azimuthal.gif' width='600'>"
+excerpt: "TA instabilities are arising in combustors of rocket and gas turbine engines.<br/><img src='/images/projects/thermoacoustics/azimuthal.gif' width='600' style='border:1px solid #000000'>"
 collection: portfolio
 ---
 
