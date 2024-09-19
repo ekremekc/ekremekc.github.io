@@ -14,7 +14,7 @@ Our research is centered around the optimization for engineering applications. W
 * structures
 * fluids
 
-We use different numerical toolkits to address engineering optimization problems. See [Interests](https://ekremekc.github.io/portfolio/) page to find out the softwares we use.
+We use different numerical toolkits to address engineering optimization problems. See [Interests](https://ekremekc.github.io/portfolio/) page to find out what we do.
 
 <!-- Getting started
 ======
