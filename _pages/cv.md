@@ -11,15 +11,15 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Engineering Science, University of Cambridge, Jan 2021 - Jun 2024: 
+* Ph.D in Engineering Science, University of Cambridge, Jan 2021 - Jun 2024
   * Thesis title: Shape Optimization of Annular Combustors with an Open Source Parallelized Thermoacoustic Helmholtz Solver
   * Supervisor: [Matthew Juniper](https://mpj1001.user.srcf.net/MJ_biography.html)
 
-* M.S. in Advanced Mechanical Engineering, University of Birmingham, Aug 2019 - Nov 2020:
+* M.S. in Advanced Mechanical Engineering, University of Birmingham, Aug 2019 - Nov 2020
   * Thesis title: Design and Simulation of Converging Diverging Supersonic Nozzle
   * Supervisor: [Jason Stafford](https://www.birmingham.ac.uk/staff/profiles/mechanical/stafford-jason)
 
-* B.S. in Mechanical Engineering, Yildiz Technical University, Sep 2014 - Aug 2017:
+* B.S. in Mechanical Engineering, Yildiz Technical University, Sep 2014 - Aug 2017
   * Thesis title: Experimental Investigation on Nano Refrigerant Vapor Compression Refrigeration Cycles
   * Supervisor: [Ahmet Selim Dalkılıç](https://avesis.yildiz.edu.tr/dalkilic)
 
