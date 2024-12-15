@@ -24,9 +24,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Ekrem Ekici"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher"
-  location         : "İstanbul, Türkiye"
-  employer         : "University of Cambridge"
+  bio              : "Postdoctoral Researcher"
+  location         : "Dhahran, KSA"
+  employer         : "KFUPM"
   uri              : # URL
   email            : "ekremekici@proton.me" 
 
@@ -290,7 +290,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Turkey # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
