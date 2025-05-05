@@ -7,6 +7,87 @@ redirect_from:
   - /markdown.html
 ---
 
+Making a Linux server machine
+======
+First, we nned to install ssh:
+
+```bash
+sudo apt install openssh-server -y
+sudo systemctl enable ssh
+sudo systemctl start ssh
+```
+then check if it is running
+```bash
+sudo systemctl status ssh
+```
+Now we need to allow ssh through firewall:
+```bash
+sudo ufw allow OpenSSH
+sudo ufw enable
+sudo ufw status
+```
+
+For adding user:
+
+```bash
+sudo addUser --disabled-password user1
+```
+Each commend will ask for user info, press enter for optional fields like phone number, office no etc.
+
+Now we want users to setup their own password:
+
+```bash
+sudo chage -d 0 user1
+```
+
+Now, go to ssh config file and allow this user for access:
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+Then add this line at the bottom:
+
+```bash
+AllowUsers user1
+```
+
+Then restart ssh to apply changes:
+
+```bash
+sudo systemctl restart ssh
+```
+
+To get the ip, run in the remote linux pc:
+
+```bash
+hostname -I
+```
+and you will get something like `10.208.15.53`.
+
+Then for connection from other pc:
+```bash
+ssh user1@10.208.15.53
+```
+
+(Optinal) For securing the server: go to 
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+and make the following changes:
+```bash
+PermitRootLogin no
+PasswordAuthentication yes
+```
+then reload SSH:
+```bash
+sudo systemctl reload ssh
+```
+
+The configuration should be complete now.
+
+
 vncserver commands
 ======
 To specify the port of vncserver:
