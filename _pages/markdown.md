@@ -9,7 +9,7 @@ redirect_from:
 
 Making a Linux server machine
 ======
-First, we nned to install ssh:
+First, we need to install ssh:
 
 ```bash
 sudo apt install openssh-server -y
@@ -30,7 +30,7 @@ sudo ufw status
 For adding user:
 
 ```bash
-sudo addUser --disabled-password user1
+sudo adduser --disabled-password user1
 ```
 Each commend will ask for user info, press enter for optional fields like phone number, office no etc.
 
@@ -87,6 +87,19 @@ sudo systemctl reload ssh
 
 The configuration should be complete now.
 
+If password is forgotten, you set the password with on the linux machine with:
+
+```bash
+sudo passwd user1
+```
+
+and manually set the password again. Then run 
+
+```bash
+sudo chage -d 0 user1
+```
+
+for user to set their own password in their next login.
 
 vncserver commands
 ======
