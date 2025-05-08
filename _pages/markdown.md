@@ -7,6 +7,45 @@ redirect_from:
   - /markdown.html
 ---
 
+My own Ubuntu environment
+======
+```bash
+sudo apt install htop
+# FreeCAD
+sudo apt update
+sudo apt install ubuntu-desktop  
+sudo apt-get install -y fuse libfuse2 # required by some apps
+sudo apt install snapd
+sudo snap install freecad
+# Brave
+sudo apt install curl
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt install brave-browser
+# inkscape
+sudo apt-get install -y inkscape
+# paraview
+sudo apt-get install paraview
+# VSCode
+sudo apt install code
+# Setting up remote pc
+sudo apt install -y tigervnc-standalone-server tigervnc-xorg-extension tigervnc-viewer dbus-x11
+sudo apt install xfce4 xfce4-goodies tasksel
+sudo tasksel
+sudo update-alternatives --config x-session-manager
+sudo snap install -y onlyoffice-desktopeditors
+sudo apt install -y libreoffice
+# other softwares
+cd $HOME
+mkdir Applications
+cd Applications
+# Arduino IDE
+wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.4_Linux_64bit.AppImage
+chmod +x arduino-ide_2.3.4_Linux_64bit.AppImage
+# Ultimaker slicer for 3D printing
+wget https://github.com/Ultimaker/Cura/releases/download/5.9.0/UltiMaker-Cura-5.9.0-linux-X64.AppImage
+chmod +x UltiMaker-Cura-5.9.0-linux-X64.AppImage
+```
 Making a Linux server machine
 ======
 First, we need to install ssh:
