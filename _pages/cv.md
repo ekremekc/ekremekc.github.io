@@ -20,7 +20,6 @@ Work Experience
 
 * **Research Assistant**, Apr 2018 - Aug 2019 
   * Gebze Technical University, TR
-  * Assisted Modules: Thermodynamics I & II
 
 Education
 ======
@@ -35,6 +34,10 @@ Education
 * B.S. in Mechanical Engineering, Yildiz Technical University, Sep 2014 - Aug 2017
   * Thesis title: Experimental Investigation on Nano Refrigerant Vapor Compression Refrigeration Cycles
   * Supervisor: [Ahmet Selim Dalkılıç](https://avesis.yildiz.edu.tr/dalkilic)
+
+Short bio
+======
+Ekrem Ekici is born in 1996 in Muğla, Türkiye. He is married and father of one.
 
 <!-- Selected Publications
 ======

@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Our research is centered around the optimization for engineering applications. We aim to use [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) to push the boundaries of the computer. We aim to apply certain optimization techniques and tools on wide spectrum of engineering problems such as:
+Our research is centered around the optimization for engineering applications. We aim to use [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) in order to push the boundaries of the computer. We aim to apply certain optimization techniques and tools on wide spectrum of engineering problems such as:
 * acoustics/thermoacoustics
 * heat transfer
 * biomedicals

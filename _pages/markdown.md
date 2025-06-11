@@ -167,6 +167,13 @@ Then, modify config file in .ssh folder using [this](http://www.chiark.greenend.
 
 After them you should be able to login just by `ssh computer_name`.
 
+gif generator
+======
+```bash
+ffmpeg -i animation.mp4 -vf "fps=20,scale=960:-1:flags=lanczos" -loop 0 wound_healing.gif -y
+```
+
+
 ## File Transfer
 
 From remote to local;
