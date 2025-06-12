@@ -7,6 +7,8 @@ redirect_from:
   - /markdown.html
 ---
 
+In this page, I save some useful information for instant-access.
+
 My own Ubuntu environment
 ======
 ```bash
@@ -46,8 +48,10 @@ chmod +x arduino-ide_2.3.4_Linux_64bit.AppImage
 wget https://github.com/Ultimaker/Cura/releases/download/5.9.0/UltiMaker-Cura-5.9.0-linux-X64.AppImage
 chmod +x UltiMaker-Cura-5.9.0-linux-X64.AppImage
 ```
+
 Making a Linux server machine
 ======
+
 First, we need to install ssh:
 
 ```bash

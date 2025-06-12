@@ -8,7 +8,7 @@ date: 2022-01-01
 location: "Cambridge, United Kingdom"
 ---
 
-I was a demonstrator for various modules in Department of Engineering, University of Cambridge between 2021 and 2024. 
+I was a demonstrator for more than 100 hours for various modules in Department of Engineering, University of Cambridge between 2021 and 2024. 
 
 I have tabulated the modules I was a demonstrator below:
 
