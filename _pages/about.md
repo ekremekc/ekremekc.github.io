@@ -16,6 +16,11 @@ Our research is centered around the optimization for engineering applications. W
 
 We use different numerical toolkits to address engineering optimization problems. See [Interests](https://ekremekc.github.io/portfolio/) page to find out what we do.
 
+Diary
+===
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FIstanbul&mode=WEEK&showPrint=0&showCalendars=0&src=YzQ4OTdhNTM4ZDY5YWFhOTllOGE5M2E2ZDMwODZmYTYwMmVlMzFiOTkzZTMwY2MxNzNiYzQyYjVjNGZlYWQwNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2Iuc2F1ZGlhcmFiaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23d81b60&color=%234285f4&hl=en&mode=week" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 <!-- Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
