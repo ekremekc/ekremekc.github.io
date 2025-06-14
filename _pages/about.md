@@ -21,20 +21,21 @@ Diary
 
 <style>
   .calendar-container {
-    position: relative;
     width: 100%;
-    padding-bottom: 75%; /* Adjust this for aspect ratio (600/800 = 0.75) */
-    height: 0;
-    overflow: hidden;
+    max-width: 800px; /* Optional: constrain on larger screens */
+    margin: 0 auto;
   }
 
   .calendar-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    height: 700px; /* or adjust as needed */
     border: 0;
+  }
+
+  @media (max-width: 768px) {
+    .calendar-container iframe {
+      height: 1000px; /* taller on small screens to show more hours */
+    }
   }
 </style>
 
