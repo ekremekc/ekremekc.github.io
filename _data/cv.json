@@ -1,0 +1,206 @@
+{
+  "basics": {
+    "name": "Ekrem Ekici",
+    "email": "ekrem.ekici@kfupm.edu.sa",
+    "phone": "",
+    "website": "https://ekremekc.github.io",
+    "summary": "Currently employed at KFUPM. Postdoctoral Fellow",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Dhahran, KSA",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.com/citations?user=xv3NcBsAAAAJ"
+      },
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": "http://orcid.org/0000-0002-5885-790X"
+      },
+      {
+        "network": "GitHub",
+        "username": "ekremekc",
+        "url": "https://github.com/ekremekc"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ekremekc",
+        "url": "https://www.linkedin.com/in/ekremekc"
+      }
+    ]
+  },
+  "work": [],
+  "education": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [
+    {
+      "name": "Shape Optimization for Thermoacoustic Instability (Oral Presentation)",
+      "publisher": "Presented in Rolls Royce Doctoral Network, Derby, UK",
+      "releaseDate": "2022-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Thermodynamic assessment of a geothermal power and cooling cogeneration system with cryogenic energy storage",
+      "publisher": "Energy Conversion and Management",
+      "releaseDate": "2022-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Adjoint Based Shape Optimization for Thermoacoustic Stability of Combustors using NURBS",
+      "publisher": "UK Fluids Conference, 17-19 October, Glasgow, UK",
+      "releaseDate": "2023-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Real-time parameter inference of nonlinear bluff-body-stabilized flame models using Bayesian neural network ensembles",
+      "publisher": "In the proceedings of Turbo Expo: Power for Land, Sea, and Air",
+      "releaseDate": "2023-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Shape Sensitivities for Thermoacoustic Stability of Annular Combustors.",
+      "publisher": "In the proceedings of Symposium on Thermoacoustics in Combustion: Industry meets Academia (SoTiC), 11-14 September, Zurich, Switzerland",
+      "releaseDate": "2023-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Adjoint Based Shape Optimization for Thermoacoustic Stability of Combustors Using Free Form Deformation",
+      "publisher": "In the proceedings of ASME Turbo Expo, London, UK",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Adjoint Based Shape Optimization for Thermoacoustic Stability of Combustors using Free Form Deformation",
+      "publisher": "British Applied Mathematics Colloquium (BAMC), 9-11 April, Newcastle, UK",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Shape sensitivity of thermoacoustic oscillations in an annular combustor with a 3D adjoint Helmholtz solver",
+      "publisher": "Computer Methods in Applied Mechanics and Engineering",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Helmholtz-x: Parallelized adjoint open source solver for the thermoacoustic Helmholtz equation",
+      "publisher": "Engineering with Computers",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Shape Optimization of an Industrial Aeroengine Combustor to Reduce Thermoacoustic Instability",
+      "publisher": "Journal of Engineering for Gas Turbines and Power",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Adjoint Based Shape Optimization for Thermoacoustic Stability of Combustors",
+      "event": "University of Strathclyde, Glasgow, UK",
+      "date": "2023-10-19",
+      "location": "",
+      "description": "Upon Dr. Alexander Wray&apos;s invitation, I have given a seminer in Deparment of Engineering, University of Strathclyde."
+    },
+    {
+      "name": "helmholtz-x : Parallelized Open-source Solver for Thermoacoustic Helmholtz Equation",
+      "event": "Technical University of Munich (TUM), Munich, Germany",
+      "date": "2024-02-22",
+      "location": "",
+      "description": "I have given a talk about my solver **helmholtz-x** upon my visit of Wolfgang Polifke&apos;s research group."
+    },
+    {
+      "name": "Adjoint-based Shape Optimization for Thermoacoustic Stability of Combustors Using Free Form Deformation (Poster Presentation)",
+      "event": "Flow instability, modelling and control, UK Fluids Network, Special Interest Groups, Imperial College London, London, UK",
+      "date": "2024-04-19",
+      "location": "",
+      "description": "I did a flash talk and poster presentation in Imperial College London upon invitation."
+    },
+    {
+      "name": "Shape Optimization of Annular Combustors with an Open Source Parallelized ThermoacousticHelmholtz Solver",
+      "event": "Aerospace Engineering, Istanbul Technical University, Istanbul, TR",
+      "date": "2025-03-26",
+      "location": "",
+      "description": "I have given a talk about my helmholtz-x solver and its applications for combustor designs."
+    }
+  ],
+  "teaching": [
+    {
+      "course": "Aerospace Engineering Tutor",
+      "institution": "University of Cambridge, Summer School",
+      "date": "2024-03-01",
+      "role": "Undergraduate course",
+      "description": ""
+    },
+    {
+      "course": "Demonstrator",
+      "institution": "University of Cambridge",
+      "date": "2022-01-01",
+      "role": "Undergraduate course",
+      "description": ""
+    },
+    {
+      "course": "Computer Science Tutor",
+      "institution": "University of Cambridge, Summer School",
+      "date": "2024-07-01",
+      "role": "Undergraduate course",
+      "description": ""
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Finite Element Method",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "We are interested in finite element method when solving PDEs.<br/><img src='/images/projects/fem/bogaz_mesh.png' width='600'>"
+    },
+    {
+      "name": "Metaheuristic optimization",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Metaheuristic approaches can be useful when solving combinatorial optimization problems.<br/><img src='/images/projects/metaheuristics/aco_solution.gif' width='600'>"
+    },
+    {
+      "name": "PulseVAD",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Developing the current VADs is vital to assist the increasing number of patients with heart failures.<br/><img src='/images/projects/pulsevad/siliconerubber.png' width='600' style='border:1px solid #000000'>"
+    },
+    {
+      "name": "Thermoacoustic Instability",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "TA instabilities are arising in combustors of rocket and gas turbine engines.<br/><img src='/images/projects/thermoacoustics/azimuthal.gif' width='600' style='border:1px solid #000000'>"
+    },
+    {
+      "name": "Wound Healing",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Wound healing is a diffusion driven, millennium old phenomenon occurring in almost every creature.<br/><img src='/images/projects/woundHealing//wound_healing.gif' width='600' style='border:1px solid #000000'>"
+    }
+  ]
+}
