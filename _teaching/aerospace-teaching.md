@@ -1,14 +1,14 @@
 ---
 title: "Aerospace Engineering Tutor"
 collection: teaching
-type: "Undergraduate course"
+type: "Online course"
 permalink: /teaching/aerospace-teaching
 venue: "University of Cambridge, Summer School"
 date: 2024-03-01
 location: "Cambridge, United Kingdom"
 ---
 
-60 hours of teaching for Aerospace Engineering module in 2024.
+More than 100 hours of teaching and supervision of personal aerospace engineering projects.
 
 Aerospace Engineering
 ======
@@ -18,3 +18,7 @@ This programme could offer to understand the current advancements in aerospace t
 * Introduction to Flight by John Anderson (2021)  
 * Rocket Propulsion Elements (2017)
 * Rocket Propulsion (2019) 
+
+| Module           | Total Hours   | Year                                                  |
+| Introduction to Aerospace Engineering         | 30 | 2025 |
+| Introduction to Aerospace Engineering         | 60 | 2024 |
