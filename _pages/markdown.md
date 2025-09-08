@@ -47,6 +47,10 @@ chmod +x arduino-ide_2.3.4_Linux_64bit.AppImage
 # Ultimaker slicer for 3D printing
 wget https://github.com/Ultimaker/Cura/releases/download/5.9.0/UltiMaker-Cura-5.9.0-linux-X64.AppImage
 chmod +x UltiMaker-Cura-5.9.0-linux-X64.AppImage
+# Zoom
+# download deb file from https://zoom.us/download?os=linux
+sudo apt-get install libxcb-xtest0 libxcb-cursor0
+sudo dpkg -i zoom_amd64.deb
 ```
 
 Making a Linux server machine
