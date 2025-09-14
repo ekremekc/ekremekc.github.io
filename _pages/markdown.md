@@ -196,6 +196,11 @@ From local to remote;
 ## Ubuntu terminal commands;
 [Saving the terminal output to a file.](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
 
+### Disabling ipv6 for some networks
+```bash
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+```
+
 About PhD - Advices;
 ======
 Jack Baker's Advices are [here](https://www.jackwbaker.com/advice.html).
