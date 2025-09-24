@@ -165,6 +165,19 @@ lsof -ti:5902 | xargs kill -9
 Reference link is [here](http://www.chiark.greenend.org.uk/~peterb/remoteaccess/connect-to-linux.html).
 
 
+For graphical login
+=====
+Simply type `ssh ekrem@10.208.15.53`
+then
+```bash
+env - HOME=$HOME PATH=$PATH LANG=$LANG USER=$USER vncserver 
+```
+Then note the desktop id like :2 and append this to the 590 below run this:
+```bash
+ssh -t -L:5902:localhost:5902 ekrem@10.208.15.53
+```
+Then run `tigervnc` and enter `127.0.0.1.5902`
+
 SSH tunneling
 ======
 First do;
