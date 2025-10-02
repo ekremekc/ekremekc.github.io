@@ -1,10 +1,10 @@
 ---
 title: "Ventricle Assist Devices"
-excerpt: "Developing the current VADs is vital to assist the increasing number of patients with heart failures.<br/><img src='/images/projects/vad/HVAD.png' width='600' style='border:1px solid #000000'>"
+excerpt: "Developing the current VADs is vital to assist the increasing number of patients with heart failures.<br/><img src='/images/projects/vad/cover.jpg' width='600' style='border:1px solid #000000'>"
 collection: portfolio
 ---
 
-<br/><img src='/images/projects/vad/HVAD.png' width='600' style='border:1px solid #000000'>
+<br/><img src='/images/projects/vad/cover.jpg' width='600' style='border:1px solid #000000'>
 
 Overview
 =========
