@@ -13,6 +13,8 @@ In this page, I save some useful information for instant-access.
 
 ```bash
 sudo apt install htop
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda_installer.sh # conda
+sudo apt install git -y
 # FreeCAD
 sudo apt update
 sudo apt install ubuntu-desktop  
@@ -76,9 +78,10 @@ sudo ufw status
 ## For adding user
 
 ```bash
-sudo adduser --disabled-password user1
+sudo passwd user1
 ```
-Each commend will ask for user info, press enter for optional fields like phone number, office no etc.
+
+It will ask you a password, set something. Each commend will ask for user info, press enter for optional fields like phone number, office no etc.
 
 Now we want users to setup their own password:
 
@@ -164,7 +167,6 @@ If port is in use;
 lsof -ti:5902 | xargs kill -9
 ```
 Reference link is [here](http://www.chiark.greenend.org.uk/~peterb/remoteaccess/connect-to-linux.html).
-
 
 # For graphical login
 
