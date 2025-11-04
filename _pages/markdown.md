@@ -9,8 +9,8 @@ redirect_from:
 
 In this page, I save some useful information for instant-access.
 
-My own Ubuntu environment
-======
+# My own Ubuntu environment
+
 ```bash
 sudo apt install htop
 # FreeCAD
@@ -53,8 +53,7 @@ sudo apt-get install libxcb-xtest0 libxcb-cursor0
 sudo dpkg -i zoom_amd64.deb
 ```
 
-Making a Linux server machine
-======
+# Making a Linux server machine
 
 First, we need to install ssh:
 
@@ -74,7 +73,7 @@ sudo ufw enable
 sudo ufw status
 ```
 
-For adding user:
+## For adding user
 
 ```bash
 sudo adduser --disabled-password user1
@@ -117,7 +116,7 @@ Then for connection from other pc:
 ssh user1@10.208.15.53
 ```
 
-(Optinal) For securing the server: go to 
+### (Optional) For securing the server: go to 
 
 ```bash
 sudo nano /etc/ssh/sshd_config
@@ -134,7 +133,9 @@ sudo systemctl reload ssh
 
 The configuration should be complete now.
 
-If password is forgotten, you set the password with on the linux machine with:
+### If password is forgotten
+
+You set the password with on the linux machine with:
 
 ```bash
 sudo passwd user1
@@ -148,8 +149,8 @@ sudo chage -d 0 user1
 
 for user to set their own password in their next login.
 
-vncserver commands
-======
+# vncserver commands
+
 To specify the port of vncserver:
 ```
 vncserver :2 
@@ -165,8 +166,8 @@ lsof -ti:5902 | xargs kill -9
 Reference link is [here](http://www.chiark.greenend.org.uk/~peterb/remoteaccess/connect-to-linux.html).
 
 
-For graphical login
-=====
+# For graphical login
+
 Simply type `ssh ekrem@10.208.15.53`
 then
 ```bash
@@ -178,8 +179,8 @@ ssh -t -L:5902:localhost:5902 ekrem@10.208.15.53
 ```
 Then run `tigervnc` and enter `127.0.0.1.5902`
 
-SSH tunneling
-======
+## SSH tunneling
+
 First do;
 ```bash
 ssh-keygen
@@ -188,8 +189,8 @@ Then, modify config file in .ssh folder using [this](http://www.chiark.greenend.
 
 After them you should be able to login just by `ssh computer_name`.
 
-gif generator
-======
+# gif generator
+
 ```bash
 ffmpeg -i animation.mp4 -vf "fps=20,scale=960:-1:flags=lanczos" -loop 0 wound_healing.gif -y
 ```
