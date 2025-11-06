@@ -77,6 +77,13 @@ sudo ufw status
 
 ## For adding user
 
+First add the user
+
+```bash
+sudo adduser --disabled-password user1
+```
+then run
+
 ```bash
 sudo passwd user1
 ```
