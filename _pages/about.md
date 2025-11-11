@@ -16,8 +16,7 @@ Our research is centered around the optimization for engineering applications. W
 
 We use different numerical toolkits to address engineering optimization problems. See [Interests](https://ekremekc.github.io/portfolio/) page to find out what we do.
 
-Diary
-===
+# Diary
 
 <style>
   .calendar-container {
@@ -46,6 +45,18 @@ Diary
     scrolling="no">
   </iframe>
 </div>
+
+# Diary (test) 
+
+<div class="calendar-container">
+<iframe src="https://calendar.zoho.com/zc/ui/embed/#calendar=zz08011230fdfdd64458c7611a7c276581419f1de17414472fcfc49ed0efee24f89b7845feceee687941986bd711da0d00c42b384a&title=Academic&type=1&language=en&timezone=Asia%2FRiyadh&showTitle=1&showTimezone=1&view=week&showDetail=0&theme=1&eventColorType=light" frameBorder="0" scrolling="no"></iframe>
+</div>
+
+## Meeting form
+<div class="calendar-container">
+<iframe src="https://calendar.zoho.com/eventreqForm/zz08011230fdfdd64458c7611a7c276581419f1de17414472fcfc49ed0efee24f89b7845feceee687941986bd711da0d00c42b384a?theme=0&l=en&tz=Asia%2FRiyadh"></iframe>
+<div class="calendar-container">
+
 
 <!-- Getting started
 ======
