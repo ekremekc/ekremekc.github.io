@@ -46,13 +46,13 @@ We use different numerical toolkits to address engineering optimization problems
   </iframe>
 </div> -->
 
-# Diary (experimental) 
+# Diary
 
 <div class="calendar-container">
-<iframe src="https://calendar.zoho.com/zc/ui/embed/#calendar=zz08011230fdfdd64458c7611a7c276581419f1de17414472fcfc49ed0efee24f89b7845feceee687941986bd711da0d00c42b384a&title=Academic&type=1&language=en&timezone=Europe%2FIstanbul&showTitle=1&showTimezone=1&startingDayOfWeek=0&timeFormat=0&view=work&showDetail=0&theme=3&showAttendee=0&showSwitchingViews=1&expandAllday=1&eventColorType=light&startHour=8&endHour=17" title="Academic" frameBorder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.zoho.com/zc/ui/embed/#calendar=zz08011230fdfdd64458c7611a7c276581419f1de17414472fcfc49ed0efee24f89b7845feceee687941986bd711da0d00c42b384a&title=Academic&type=1&language=en&timezone=Europe%2FIstanbul&showTitle=1&showTimezone=1&startingDayOfWeek=6&timeFormat=0&view=work&showDetail=0&theme=3&showAttendee=0&showSwitchingViews=1&expandAllday=1&eventColorType=light" title="Academic" frameBorder="0" scrolling="no"></iframe>
 </div>
 
-## Meeting form (experimental)
+## Meeting form
 <div class="calendar-container">
 <iframe src="https://calendar.zoho.com/eventreqForm/zz08011230fdfdd64458c7611a7c276581419f1de17414472fcfc49ed0efee24f89b7845feceee687941986bd711da0d00c42b384a?theme=0&l=en&tz=Europe%2FIstanbul"></iframe>
 <div class="calendar-container">
