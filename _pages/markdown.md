@@ -186,7 +186,7 @@ Then note the desktop id like :2 and append this to the 590 below run this:
 ```bash
 ssh -t -L:5902:localhost:5902 ekrem@10.208.15.53
 ```
-Then run `tigervnc` and enter `127.0.0.1.5902`
+Then run `tigervnc` and enter `127.0.0.1:5902`
 
 ## SSH tunneling
 
