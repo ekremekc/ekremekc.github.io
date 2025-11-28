@@ -14,4 +14,6 @@ In this project, we also develop nonlinear FEM solver to solve nonlinear diffusi
 
 $$\frac{\partial \phi}{\partial t} =  D\nabla \cdot (\phi/\phi_0)^p \nabla \phi + s\phi (1-\phi/\phi_0).$$
 
-We use FEniCSx to treat this equation and nonlinearities arising from the second term in the right-hand side.
+We use FEniCSx to treat this equation and nonlinearities arising from the second term in the right-hand side. We introduced new spatial healing parameter for better quantification for wound healing. If you want to read more, please refer our paper in Biomechanics and Modeling in Mechanobiology journal:
+
+* [A spatial healing metric for wound healing modeling](https://ekremekc.github.io/files/articles/2025BMM.pdf)

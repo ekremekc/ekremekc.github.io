@@ -1,11 +1,13 @@
 ---
-permalink: /markdown/
+permalink: /useful/
 title: "Useful"
 author_profile: true
 redirect_from: 
   - /md/
-  - /markdown.html
+  - /useful.html
 ---
+
+{% include toc %}
 
 In this page, I save some useful information for instant-access.
 
@@ -228,7 +230,7 @@ About PhD - Advices;
 ======
 Jack Baker's Advices are [here](https://www.jackwbaker.com/advice.html).
 
-Markdown Cheatsheet
+<!-- Markdown Cheatsheet
 ======
 
 ## Locations of key files/directories
@@ -484,4 +486,4 @@ This allows you to denote <var>variables</var>.
 ***
 **Footnotes**
 
-The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
+The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>. -->

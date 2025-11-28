@@ -17,3 +17,7 @@ The purpose of this project is to design, development and testing processes of t
 Developing biocompatible and durable drivelines
 =========
 The percutaneous drivelines serve as a biomaterial interface between the exterior component (controller) and the blood pump, transmitting signals and power for wired ventricular assist devices (VADs). For long-term support, the mechanical design of drivelines plays a key role in preventing driveline infections (DLIs) and VAD system malfunctions. We developed a framework that combines experimental data with mathematical modeling to analyze the mechanical response of VAD drivelines. We used HeartMate 3 and HVAD drivelines for examination and revealed the most important parameters to achieve better drivelines.
+
+To find out more about improving mechanical features of drivelines for less infections, please take a glance at our paper in International Journal of Mechanics and Materials in Design: 
+
+* [Improving percutaneous driveline performance by mechanical design modifications](https://ekremekc.github.io/files/articles/2025IJMMD.pdf)
