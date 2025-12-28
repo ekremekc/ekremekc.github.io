@@ -16,7 +16,7 @@ Our research is centered around the optimization for engineering applications. W
 
 We use different numerical toolkits to address engineering optimization problems. See [Research](https://ekremekc.github.io/portfolio/) page to find out what we do.
 
-<!-- # Diary -->
+# Diary
 
 <style>
   .calendar-container {
@@ -38,14 +38,15 @@ We use different numerical toolkits to address engineering optimization problems
   }
 </style>
 
-<!-- <div class="calendar-container">
+<div class="calendar-container">
   <iframe 
     src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FRiyadh&mode=week&showPrint=0&showCalendars=0&hl=en&src=YzQ4OTdhNTM4ZDY5YWFhOTllOGE5M2E2ZDMwODZmYTYwMmVlMzFiOTkzZTMwY2MxNzNiYzQyYjVjNGZlYWQwNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2Iuc2F1ZGlhcmFiaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23d81b60&color=%234285f4" 
     frameborder="0" 
     scrolling="no">
   </iframe>
-</div> -->
+</div>
 
+<!-- 
 # Diary
 
 <div class="calendar-container">
@@ -56,7 +57,7 @@ We use different numerical toolkits to address engineering optimization problems
 <div class="calendar-container">
 <iframe src="https://calendar.zoho.com/eventreqForm/zz08011230fdfdd64458c7611a7c276581419f1de17414472fcfc49ed0efee24f89b7845feceee687941986bd711da0d00c42b384a?theme=0&l=en&tz=Europe%2FIstanbul"></iframe>
 <!-- <iframe frameborder="0" src='https://forms.zohopublic.com/ekremekicipro1/form/AppointmentBookingForm/formperma/NmldKBa1J--WALSS7Be4uD4vm9v-dHJ7t_uFh4ztLoQ'></iframe> -->
-<div class="calendar-container">
+<!-- <div -->
 
 
 <!-- Getting started
