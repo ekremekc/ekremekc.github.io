@@ -19,6 +19,6 @@ This programme could offer to understand the current advancements in aerospace t
 * Rocket Propulsion Elements (2017)
 * Rocket Propulsion (2019) 
 
-| Module           | Total Hours   | Year                                                  |
-| Introduction to Aerospace Engineering         | 30 | 2025 |
-| Introduction to Aerospace Engineering         | 60 | 2024 |
+| Module                                        | Total Hours   | Year |
+| Introduction to Aerospace Engineering         | 30            | 2025 |
+| Introduction to Aerospace Engineering         | 60            | 2024 |
