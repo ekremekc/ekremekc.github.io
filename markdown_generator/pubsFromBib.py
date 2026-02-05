@@ -42,8 +42,8 @@ publist = {
                         "permalink":"/publication/"}
     },
     "mvproceedings":{
-        "file": "symposiums.bib",
-        "venuekey" : "publisher",
+        "file": "articlesTR.bib",
+        "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}

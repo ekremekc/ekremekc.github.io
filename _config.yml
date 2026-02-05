@@ -84,7 +84,7 @@ publication_category:
   conferences:
     title: 'Conference Papers'
   symposiums:
-    title: 'Symposiums'
+    title: 'Manuscripts in TRDIZIN'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
