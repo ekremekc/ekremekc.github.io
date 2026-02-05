@@ -1,7 +1,7 @@
 ---
 title: "Multiphysical Influence of Contact Pressure on Thermal Interface Materials in Satellite Structures"
 collection: publications
-category: symposiums
+category: trdizin
 permalink: /publication/2026-01-01-Multiphysical-Influence-of-Contact-Pressure-on-Thermal-Interface-Materials-in-Satellite-Structures
 date: 2026-01-01
 venue: 'Journal of Aeronautics and Space Technologies'

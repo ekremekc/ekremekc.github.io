@@ -77,7 +77,7 @@ for pubsource in publist:
     if pubsource=="proceeding":
         category_type = "conferences"
     if pubsource=="mvproceedings":
-        category_type = "symposiums"
+        category_type = "trdizin"
     if pubsource=="proceedings":
         category_type = "Talk"
 

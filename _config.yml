@@ -83,7 +83,7 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  symposiums:
+  trdizin:
     title: 'Manuscripts in TRDIZIN'
 
 # Site Settings
