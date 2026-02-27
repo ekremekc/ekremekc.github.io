@@ -49,6 +49,9 @@
 }
 
 .page__content {
+  
+  text-align: justify; /* Justifies the text globally in the content area */
+  text-justify: inter-word; /* Improves spacing between words */
 
   h2 {
     padding-bottom: 0.5em;

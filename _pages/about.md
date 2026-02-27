@@ -7,14 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-Our research is centered around the optimization for engineering applications. We aim to use [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) in order to push the boundaries of the computer. We aim to apply certain optimization techniques and tools on wide spectrum of engineering problems such as:
+We believe that most of the engineering problems can be tackled by changing two main system features; geometry and/or material. We aim to be expert for the former and we collaborate for the latter. By combining these two, we aim to propose scientific, well-grounded solutions and also optimize the existing applications using [open source software (OSS)](https://en.wikipedia.org/wiki/Open-source_software). We always prioritize physical intelligence over artificial intelligence. This approach is worked well so far for
+
 * acoustics/thermoacoustics
 * heat transfer
 * biomedicals
+
+problems and we aim to expand the spectrum by solving problems for
+
 * structures
 * fluids
 
-We use different numerical toolkits to address engineering optimization problems. See [Research](https://ekremekc.github.io/portfolio/) page to find out what we do.
+Please see [Research](https://ekremekc.github.io/portfolio/) page to find out what we do.
 
 # Diary
 

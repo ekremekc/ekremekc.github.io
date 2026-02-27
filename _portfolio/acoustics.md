@@ -10,6 +10,13 @@ Overview
 =========
 Acoustics are found almost everywhere from airplane engines to heart bits. We aim to develop acoustic metamaterials and tune their absorbent characteristics via impedance tube. 
 
+Sound absorbing materials
+=========
+<br/><img src='/images/projects/roadwork.gif' width='300' style='border:1px solid #000000'>
+
+Ear canal acoustics
+=========
+<br/><img src='/images/projects/roadwork.gif' width='300' style='border:1px solid #000000'>
 
 Useful resources
 =========
