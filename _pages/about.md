@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-We believe that most of the engineering problems can be tackled by changing two main system features; geometry and/or material. We aim to be expert for the former and we collaborate for the latter. By combining these two, we aim to propose scientific, well-grounded solutions and also optimize the existing applications using [open source software (OSS)](https://en.wikipedia.org/wiki/Open-source_software). We always prioritize physical intelligence over artificial intelligence. This approach is worked well so far for
+We believe that most of the engineering problems can be tackled by changing two main system features; geometry and/or material. We aim to be expert for the former and we collaborate for the latter. By combining these two, we aim to propose scientific, well-grounded understandings and also optimize the existing applications using [open source software (OSS)](https://en.wikipedia.org/wiki/Open-source_software). We always prioritize physical intelligence over artificial intelligence. This approach is worked well so far for
 
 * acoustics/thermoacoustics
 * heat transfer
