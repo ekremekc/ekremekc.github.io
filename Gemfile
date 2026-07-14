@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'activesupport', '~> 7.1.0'
+gem 'base64'
+
 group :jekyll_plugins do
   gem 'jekyll'
   gem 'jekyll-feed'
