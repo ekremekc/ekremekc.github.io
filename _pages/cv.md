@@ -11,8 +11,11 @@ redirect_from:
 
 Work Experience
 ======
-* **Post-doctoral Fellow**, Dec 2024 - ongoing
-  * Dhahran Techno Valley, KFUPM, KSA
+* **Assistant Professor**, Sep 2026 - ongoing
+  * Department of Mechanical Engineering, Boğaziçi University, TR
+
+* **Post-doctoral Fellow**, Dec 2024 - Aug 2026
+  * Interdisciplinary Research Center for Biosystems and Machines, KFUPM, KSA
 
 * **Postgraduate Student**, Aug 2019 - Aug 2024 
   * Ph.D in Engineering Science, University of Cambridge, UK
